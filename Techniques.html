@@ -57,9 +57,19 @@
 							<div style="margin:auto">
 							<p>
 								<ul>
-									<li>first</li>
-									<li>second</li>
-									<li>third</li>
+									<li>Semantic similarity defines how close is the "meaning" between a set of text data. Lexical similarity defines how close is the word set used in the text</li>
+									<li>To accurately capture the similarity between course descriptions semantic similarity is the superior method. Let's see a simple example explaining this.</li>
+									<li>Consider the following two sentences:
+										<ol>
+											<li>The tourism industry is collapsing</li>
+											<li>Travel industry fears Covid-19 crisis will cause more holiday companies to collapse</li>
+										</ol>
+										For lexical similarity, these two statements are not close to each other, but for semantic similarity, they are very close because they have strongly close meaning despite the difference in word set.
+									</li>
+									<li>To compute semantic similarity, course descriptions are converted into vectors. Vectors facilitate the calculation of similarity using the technique of cosine similarity</li>
+									<li>Cosine similarity calculates the angle between the two vectors and determines to what extent the vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis</li>
+									<li>But how shall we convert the sentences into vectors? That's when BERT comes into picture.</li>
+									<li>BERT stands for Bidirectional Encoder Representations from Transformers. It is deep nuetral network model that has the power to encode the sentence along its meaning into a vector. </li>
 								</ul>
 							</p>
 							</div>
